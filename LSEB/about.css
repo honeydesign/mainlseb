@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    padding: 0 0 0.5rem;
+}
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 1%;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.aboutcxt {
+    background-image: url(/LSEB/images/about\ us\ image.jpg);
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.aboutcxt h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    padding: 10%;
+}
+
+#features {
+    padding: 8% 8%;
+}
+
+.about {
+    padding: 15% 15% 0% 0%;
+}
+
+.about h3 {
+    padding-bottom: 5%;
+}
+
+.about p {
+    padding-bottom: 5%;
+}
+
+#features img {
+    border-radius: 20px;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+#footer {
+    background-color: #000230;
+    color: white;
+    padding: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.foot ul li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}

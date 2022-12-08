@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    padding: 0 0 0.5rem;
+}
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 1%;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.contactcxt {
+    background-image: url(/LSEB/images/contact.jpg);
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.contactcxt h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    padding: 10%;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.06);
+    padding: 8% 8%;
+    border-radius: 40px;
+}
+
+#main h2 {
+    padding-bottom: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#contact {
+    padding-bottom: 8%;
+}
+
+#footer {
+    background-color: #000230;
+    color: white;
+    padding: 5%;
+}
+
+.box {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.box h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.not {
+    padding-bottom: 15%;
+}
+
+ul {
+    list-style: none;
+}
+
+.foot ul li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}

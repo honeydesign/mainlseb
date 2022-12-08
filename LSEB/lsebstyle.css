@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    padding: 0 0 0.5rem;
+}
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 1%;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/* .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+} */
+
+.nav-item {
+    padding: 0 18px;
+}
+
+#features {
+    padding: 8% 8%;
+}
+
+.about {
+    padding: 10% 10% 0% 0%;
+}
+
+.about h3 {
+    padding-bottom: 5%;
+}
+
+.about p {
+    padding-bottom: 5%;
+}
+
+#features img {
+    border-radius: 20px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#exam {
+    background-color: rgba(0, 0, 0, 0.06);
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+#exam .examcxt {
+    text-align: center;
+}
+
+#exam .row {
+    padding-left: 5%;
+}
+
+#exam .row p {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.newscxt {
+    background-image: url(/LSEB/images/main\ news.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.newscxt::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.80);
+    z-index: -1;
+}
+
+#news {
+    padding-top: 7%;
+    padding-bottom: 15%;
+}
+
+#footer {
+    background-color: #000230;
+    color: white;
+    padding: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.foot ul li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
